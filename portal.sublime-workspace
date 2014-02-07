@@ -1,0 +1,1046 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"si",
+				"signup"
+			],
+			[
+				"cla",
+				"cla	Create functional test class"
+			],
+			[
+				"re",
+				"req	require \"..\""
+			],
+			[
+				"it",
+				"itb	RSpec It Block"
+			],
+			[
+				"de",
+				"def	Ruby/Rails Method"
+			],
+			[
+				"inil",
+				"inline-block"
+			],
+			[
+				"con",
+				"console.log(message);"
+			],
+			[
+				"cu",
+				"cur_pod"
+			],
+			[
+				"post",
+				"post_title"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"podcast_",
+				"podcast_show_array"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"vime",
+				"vimeo_url"
+			],
+			[
+				"you",
+				"youtube"
+			],
+			[
+				"vim",
+				"vimeo"
+			],
+			[
+				"el",
+				"elseif	elseif …"
+			],
+			[
+				"print",
+				"print"
+			],
+			[
+				"ec",
+				"echo"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"W",
+				"WP_Query"
+			],
+			[
+				"get_the",
+				"get_the_author_meta"
+			],
+			[
+				"whil",
+				"while	while …"
+			],
+			[
+				"q",
+				"WP_Query"
+			],
+			[
+				"rating",
+				"rating_comment"
+			],
+			[
+				"rate",
+				"rate_value"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"is",
+				"isRating"
+			],
+			[
+				"game_",
+				"game_menu"
+			],
+			[
+				"game",
+				"game_menu"
+			],
+			[
+				"reg",
+				"register_nav_menu"
+			],
+			[
+				"the",
+				"the_Post"
+			],
+			[
+				"while",
+				"ncurses_whline"
+			],
+			[
+				"title",
+				"post_title"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"get_f",
+				"get_field"
+			],
+			[
+				"gam",
+				"game_id"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"fone",
+				"font-size"
+			],
+			[
+				"ini",
+				"inline"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"spe",
+				"special-price"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"no",
+				"notplural"
+			],
+			[
+				"pla",
+				"play_time"
+			],
+			[
+				"com",
+				"complexity"
+			],
+			[
+				"min",
+				"min_age"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"related",
+				"related_games"
+			],
+			[
+				"comments",
+				"comments"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"text",
+				"textval"
+			],
+			[
+				"togg",
+				"toggleContent"
+			],
+			[
+				"tot",
+				"totHeight"
+			],
+			[
+				"strt",
+				"strtoupper"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"gr",
+				"dark-grey"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"hie",
+				"height"
+			],
+			[
+				"ligh",
+				"light-grey"
+			],
+			[
+				"g",
+				"light-grey"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\nclass User < ActiveRecord::Base\n  has_many :roles\n  has_many :portals, through: :roles\n\nend\n \nclass Role < ActiveRecord::Base\n  belongs_to :user\n  belongs_to :portal\nend\n \nclass Portal < ActiveRecord::Base\n  has_many :roles\n  has_many :users, through: :roles\nend",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user_portal_role.rb",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 470,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/signup/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 381,
+				"line_ending": "Unix",
+				"name": "index.html.erb"
+			}
+		},
+		{
+			"file": "spec/models/user_spec.rb",
+			"settings":
+			{
+				"buffer_size": 215,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db/schema.rb",
+			"settings":
+			{
+				"buffer_size": 2047,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"defa",
+				"Preferences: Settings - Default"
+			],
+			[
+				"def",
+				"Nodejs::Default File Settings"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"syn ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"syn hmt",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"pr",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ENA",
+				"Package Control: Enable Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"syn",
+				"Set Syntax: PHP"
+			],
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/korytegman/workspace/private-portal/app/models/portal.rb",
+		"/Users/korytegman/workspace/private-portal/app/models/user.rb",
+		"/Users/korytegman/workspace/private-portal/app/controllers/signup_controller.rb",
+		"/Users/korytegman/workspace/private-portal/config/routes.rb",
+		"/Users/korytegman/workspace/private-portal/db/migrate/20140206164313_create_user_portal_roles.rb",
+		"/Users/korytegman/workspace/private-portal/spec/features/signup_spec.rb",
+		"/Users/korytegman/workspace/private-portal/app/controllers/application_controller.rb",
+		"/Users/korytegman/Downloads/phpPgAdmin-5.1/INSTALL",
+		"/Users/korytegman/workspace/private-portal/spec/controllers/home_controller_spec.rb",
+		"/Users/korytegman/workspace/private-portal/spec/controllers/signup_controller_spec.rb",
+		"/Users/korytegman/workspace/private-portal/spec/spec_helper.rb",
+		"/Users/korytegman/workspace/private-portal/spec/requests/signup_spec.rb",
+		"/Users/korytegman/workspace/private-portal/spec/routing/signup_spec.rb",
+		"/Users/korytegman/workspace/private-portal/spec/helpers/home_helper_spec.rb",
+		"/Users/korytegman/workspace/private-portal/spec/helpers/portal_helper_spec.rb",
+		"/Users/korytegman/workspace/private-portal/spec/models/portal_spec.rb",
+		"/Users/korytegman/workspace/private-portal/spec/helpers/signup_helper_spec.rb",
+		"/Users/korytegman/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/korytegman/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/korytegman/Library/Application Support/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Users/korytegman/workspace/private-portal/db/migrate/20140204210016_add_roles_to_user.rb",
+		"/Users/korytegman/workspace/private-portal/config/database.yml",
+		"/Users/korytegman/workspace/private-portal/Gemfile",
+		"/Users/korytegman/workspace/private-portal/app/controllers/home_controller.rb",
+		"/Users/korytegman/workspace/private-portal/app/views/home/index.html.erb",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/5B2D5FE3-8C21-452F-BC6D-120AC624BB1C/product-thumbnails.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/63A7C068-8730-46AF-A287-0E7595C5EA81/product-image.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/72BB4B5E-C01E-470E-80F5-69B571614B7F/content-product.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/C8A8B2D1-2F1F-4E16-80A0-86AFB2CB5075/archive-product.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/0E123B2C-79C9-4229-8870-5A86863DC4D1/result-count.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/2D3348CC-C9E4-4C4E-8576-E9D43BF7A797/messages.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/A4044378-746D-4F59-B25C-A0D3BAD174AB/content-product_cat.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/7E315AE3-BDA4-4EF8-B2BB-E65E726E27F1/archive-product.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/39108700-AEFD-45B6-8FD5-969267CCCD7B/content-product.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/89BC13ED-69C2-492D-A395-A4C9E312D9E9/woocommerce.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/A345DFCE-B618-451D-B0C0-EE4434B61CD7/woocommerce-template.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/F999125D-67BF-4D80-A3FA-29443486C769/woocommerce-hooks.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/6E56377F-1A8F-4BE3-9DD5-CC4E82945898/product-thumbnails.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/9ACCDF42-FC9F-419B-9ADB-A8C7C4534656/product-thumbnails.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/5394D46D-8397-4603-BE50-BD82A59FB2F2/product-attributes.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/9D26A1B8-CDA9-4F17-9A42-C42AF1D09B1C/product-image.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/E0FFA2EC-6AE7-4E06-882B-BC0F6D299DF8/title.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/1137651E-CBBE-42C9-BBDD-F2041F83C678/product-image.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/C9220822-C10C-4E2E-AEAB-44BCE7886F31/product-image.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/DA74B38A-0630-4263-B524-B7D561B3F502/meta.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/EE0C8616-14B5-4303-BF7E-4EEB89E90A2C/product-attributes.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/FBBA7048-0919-43FB-A9BA-B779B1F6D01A/content-product.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/E44A58DA-0287-445D-A4EB-12CAB94FAA34/loop-shop.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/018E1663-B88A-4A49-AB31-464882541531/single-product.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/5F32CD9B-12A9-47B5-845B-1E84721B88E8/wrapper-end.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/66A62404-CA3C-4927-93EB-B0F57A5B9BE1/wrapper-start.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/9DF14CF1-8572-43B7-A2D3-79D02C565259/index.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/86DE97D3-7053-4323-9F3C-37CDE110651F/style.css",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/CCE13C72-D67C-4B28-BD6E-BF197123832A/woocommerce.css",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/936130FA-AE9B-4788-80F0-9B7B1F8FD0A6/product-image.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/B6097F9E-73EF-4310-B507-7338C59D88C9/myscript.js",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/D67F929E-775B-47F9-8A0F-EB5EDA9860C7/footer.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/D8BC080D-45CA-49CE-992F-56E853E6DA6F/header.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/91364A3F-EE27-4354-BE2F-E87895C47C84/header.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/02F059DB-7C78-4A4B-BC58-2641AB69A247/revelbody.css",
+		"/Users/korytegman/workspace/codefellows_js_workshop/server.js",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/7CC27B72-407F-4724-ABAB-6CD920F6261F/page.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/6C40B8B1-B153-4942-ADEB-4F4D9416AED9/header.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/8E1DE58B-FB13-4449-A6C8-1E7DA4B267FF/onecolumn-page.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/BB28AD47-A617-4078-BA12-47AF839D27A5/loop-page.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/5C2E9584-1CFC-468B-8CF3-A32EF90F1986/sidebar-footer.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/04D98406-3E06-4A65-8184-5C7F31CA0D37/sidebar.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/F113A916-E4F8-493A-9D56-52FECF3F342A/sidebar-footer.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/90DFFFE2-086D-4F26-BEEB-7027A25EC3B5/icon-pinterest.png",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/860BCE50-1B66-4E45-988C-9D45A2C73CCE/footer.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/1821B4FF-B566-49B5-9ADE-516F00019C77/index.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/3FBF1020-B366-4EF3-8149-4A711E4ABF16/index.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/E38906C3-8C1B-439F-ABA1-77092ADF740C/index.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/F6A46E21-1C04-450B-8459-F55EF8E72C89/style.css",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/A53C797B-0595-4DA9-9B5D-051332CB0113/wp-config-sample.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/015E6AD8-DDE9-4874-81F5-AEC1A0220C05/quickstart.html",
+		"/Users/korytegman/Downloads/jquery-quick-pagination/index.php",
+		"/Users/korytegman/Downloads/jquery-quick-pagination/css/quick-styles.css",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/4A557BCC-D861-47B1-B592-1D6559A54F7E/archive-podcast.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/5A879659-4A28-4D4A-BA9C-52BB5CAC4ADB/rss-parse.php",
+		"/Volumes/Gambit/public_html/wp-content/themes/gambit/comments.php",
+		"/Volumes/Gambit/public_html/wp-content/themes/gambit/header.php",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/single-video.php",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/style.css",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/taxonomy-gallery_categories-campaign.php",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/taxonomy-gallery_categories-cover.php",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/sidebar.php",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/archive-video.php",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/taxonomy-gallery_categories-editorial.php",
+		"/Volumes/garrett neff/public_html/wp-content/themes/garrentneff/single-gallery.php",
+		"/Volumes/cbw910.info/public_html/wp-content/themes/gambit/author.php",
+		"/Volumes/cbw910.info/public_html/wp-content/themes/gambit/functions.php",
+		"/Volumes/cbw910.info/public_html/wp-content/themes/gambit/boardgamesearch.php",
+		"/Volumes/cbw910.info/public_html/.gitignore",
+		"/Users/korytegman/coolblueweb-clients/AnticaFarmacista/app/design/frontend/default/antica-stage/template/checkout/success.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/66B3FAD4-52C3-4193-8D80-EDECF8E1ABCC/cart.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/17C749A2-B4A4-4BF4-9BC3-F32C3F4F1FEC/success.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/64B38C83-9D17-450F-9E4A-1FB713364852/ogscript.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/0B662552-A5AC-47F2-A169-6DA4D67F5B5F/default.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/67492DF0-0B53-4D50-B8E8-499233FFE085/simple.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/A3E1A462-1665-4CC9-9A32-C85BDE716C74/shipping.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/AD560603-1A1B-4519-A4A9-5A1C13AE5797/review.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/32217C53-5DF6-4962-A673-555C8C933459/review.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/59E1B893-606E-41CD-A5AD-F1410E916713/cart.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/6DEE4CE7-9984-46C4-8B99-15E9A0B634E9/onepage.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/6A760661-F919-4FD9-A7D7-82F8D8C7650C/ogscript.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/723EDCEA-6C20-4B97-B111-8C9808790B80/ogscript.phtml",
+		"/Users/korytegman/coolblueweb-clients/AnticaFarmacista/app/code/local/anticafa/Checkout/etc/config.xml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/16F68FA1-33B6-4CCF-BED2-11FE6B78911E/config.xml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/C3F5AB94-6651-4813-942F-EB11E54B5EA3/config.xml",
+		"/Users/korytegman/coolblueweb-clients/AnticaFarmacista/app/code/local/anticafa/Checkout/Block/Cart/Totals.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/75D1168C-11CD-4026-9F80-7773A8807C3B/Totals.php",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/0B1C31BF-983D-4561-8517-9CE9819BCD1F/config.xml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/B3A5FD67-4977-4FC0-B22A-38350205D53A/.gitignore",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/11918673-BF97-4C2F-A740-D93A3089255E/local.xml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/8A3BD2D9-52D0-4463-80E1-327448E04524/local.xml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/FA7332D5-3E80-4E4C-B743-4DCE920AE608/config.xml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/DB7727DA-69A3-415B-8992-017ED74E510D/.htpasswd",
+		"/Volumes/gambit/public_html/wp-content/themes/gambit/single-article.php",
+		"/Volumes/gambit/public_html/wp-content/themes/gambit/comments.php",
+		"/Volumes/gambit/public_html/wp-content/themes/gambit/index.php",
+		"/Volumes/gambit/public_html/wp-content/themes/gambit/style.css",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/DC6DD703-0BD3-488E-B814-5E4EEFD2408E/styles.css",
+		"/Volumes/cbwus200.us/public_html/catalog/app/code/local/CoolBlueWeb/Ordinations/etc/config.xml",
+		"/Volumes/cbwus200.us/public_html/catalog/app/code/local/CoolBlueWeb/Ordinations/controllers/IndexController.php",
+		"/Volumes/cbwus200.us/public_html/catalog/app/etc/modules/CoolBlueWeb_Ordinations.xml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/992993EC-1682-42D1-B96A-E5ECA44D84CD/footer.phtml",
+		"/Users/korytegman/Library/Caches/Cleanup At Startup/Transmit/A3178DFB-9C93-4B8E-87DE-2DBC8A1133C5/styles.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"project"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"woocommerce_before_shop_loop_item_title",
+			"team",
+			"faq",
+			"div",
+			"login-box",
+			"wp-admin",
+			"font-family",
+			"h2",
+			"$vid_list",
+			"$id",
+			"$searched_posts",
+			"rating",
+			"core-model.js",
+			"#	deleted:",
+			"Primary",
+			"primary",
+			"Primary",
+			"primary",
+			"Primary",
+			"primary",
+			"Primary",
+			"primary",
+			"Primary",
+			"primary",
+			"Primary",
+			"primary",
+			"games_subnav",
+			"nav",
+			"author",
+			"videos",
+			"game",
+			"related_games",
+			"comment",
+			"next5",
+			"<span class=\"required\">*</span>",
+			"Rewrite Base/",
+			"contact",
+			"level",
+			"hours",
+			"plural",
+			"2",
+			"3",
+			"rgba",
+			"game",
+			"game type",
+			"int-top-wrap",
+			"wpdb",
+			"cbw910.info",
+			"info",
+			"cbw910.info/",
+			"/home/cbw910/public_html",
+			"\";}",
+			"/home/cbw910",
+			"themes-content",
+			"button",
+			"slideshow",
+			"/ultraslideshow/slideshow.phtml",
+			"webkit",
+			"o",
+			"webkit",
+			"2",
+			"7em",
+			"font-size",
+			"font"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								207
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/user_portal_role.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/home/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/signup/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.html.erb",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "spec/models/user_spec.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "db/schema.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2047,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "portal.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"menu",
+				"wp-content/plugins/admin-menu-editor/includes/menu-item.php"
+			],
+			[
+				".css",
+				"wp-content/themes/gambit/style.css"
+			],
+			[
+				"reward",
+				"app/code/local/Magestore/Customerreward/Block/Rewardpointinfo.php"
+			],
+			[
+				"app/code/core/mage/install/etc/con",
+				"app/code/core/Mage/Install/etc/config.xml"
+			],
+			[
+				"local",
+				"errors/local.xml.sample"
+			],
+			[
+				"resource",
+				"app/code/core/Mage/Api2/Model/Resource.php"
+			],
+			[
+				"magesalesmodelquoteadd",
+				"app/code/core/Mage/Sales/Model/Quote/Address.php"
+			],
+			[
+				"magesalesmodel",
+				"app/code/core/Mage/Sales/Model/Config.php"
+			],
+			[
+				"me",
+				"app/assets/stylesheets/application/media_queries.css.scss"
+			],
+			[
+				"header",
+				"app/views/application/_header.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

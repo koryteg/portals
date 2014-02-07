@@ -1,0 +1,15 @@
+<h1>hey sign up!</h1>
+<% if flash[:notice] %>
+    <div id="notice"><%= flash[:notice] %></div>
+<% end %>
+<%= form_for @user, url: {action: "create"} do |f| %>
+  
+
+  <div><%= f.label :email %><br />
+  <%= f.email_field :email %></div>
+
+  <div><%= f.label :password %><br />
+  <%= f.password_field :password %></div>
+
+  <div><%= f.submit "Sign up", :id => "signup" %></div>
+<% end %>
